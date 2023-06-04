@@ -1,0 +1,39 @@
+<html>
+    <script>
+        left = 3
+        function sium1() {
+            if (left > 0 && event.target.style.backgroundColor == "blue" ){
+            chances = [true,false,false,false]
+            textloss = ["hai trovato qualche pietra","hai trovato un'asse di legno","hai trovato un chiodo arrugginito","hai trovato un'unghia rotta","hai trovato un sacchetto del conad"]
+            textgain = ["hai trovato un forziere di dobloni","hai trovato una gemma inestimabile","hai trovato una moneta antica","hai trovato un biglietto vincente della lotteria","ha trovato un biglietto d'oro per la fabbrica di cioccolato"]
+            if (chances[Math.floor(Math.random() * chances.length)]){
+                event.target.style.backgroundColor = 'salmon'
+                event.target.textContent = textgain[Math.floor(Math.random() * textgain.length)]
+                left = 3
+            } else{
+                event.target.style.backgroundColor = 'cyan'
+                event.target.textContent = textloss[Math.floor(Math.random() * textloss.length)]
+                left -= 1
+            }
+
+        }
+    }
+    </script>
+    <body>
+        
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+        <button onclick="sium1()" style="height: 25%;width: 20%; background-color: blue; border: 3px solid black; float:left;font-size: large;">cliccami per scoprire cosa è nascosto qui!</button>
+</html>
